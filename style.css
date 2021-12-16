@@ -1,0 +1,144 @@
+
+@media screen and (min-width: 1024px) {
+   
+header {
+    display: flex;
+    justify-content: center;
+    height:100%;
+}
+.Menu{
+    color:white;
+    background: linear-gradient(to bottom, red, orange, yellow, green,skyblue);
+    border: none;
+    float: left;
+    cursor: pointer;
+    flex-direction: column;
+    width: 100px;
+    height: 200px;
+    border: 5px solid;
+}
+.Menu a{
+    text-decoration: none;
+    color:black;
+}
+
+.titulo{
+    display: flex;
+    margin: 30px;
+    text-align: center;
+    border: 2px solid;
+    height: 75px;
+    width: 350px;
+    font-family: 'Noto Sans', sans-serif;
+    background: linear-gradient(to left, red, orange, yellow, green, blue);
+    transform: skewY(5deg);
+}
+
+#imagenhigiene{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    border: 3px solid white;
+}
+#imagenrender1{
+    height: 200px;
+    width: 150px;
+    display: flex;
+    border: 3px solid white;
+}
+#imagenrender2{
+    height: 200px;
+    width: 150px;
+    display: flex;
+    border: 3px solid white;
+}
+#imagenlogo{
+    height: 200px;
+    width: 150px;
+    display: flex;
+    border: 3px solid white;
+}
+.titulocomunicacion{
+    display: flex;
+    justify-content:center;
+    border: 2px solid;
+    height: 40px;
+    width: 180px;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: skyblue;
+    transform: skewY(5deg);
+}
+.tituloarquitectura{
+    display: flex;
+    justify-content:center;
+    border: 2px solid;
+    height: 40px;
+    width: 170px;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: yellow;
+    transform: skewY(5deg);
+}
+.tituloasesorialegal{
+    display: flex;
+    justify-content:center;
+    border: 2px solid;
+    height: 40px;
+    width: 200px;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: brown;
+    transform: skewY(5deg);
+}
+.tituloenfermeria{
+    display: flex;
+    justify-content:center;
+    border: 2px solid;
+    height: 40px;
+    width: 150px;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: green;
+    transform: skewY(5deg);
+}
+
+#Tabla  {
+    background-color: white;
+    color:black;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    }
+    
+    th, td {
+    border: solid 1px black;
+    }
+    
+    thead{
+        background-color:skyblue;
+        border-bottom: solid 5px;
+        color: black;
+    }
+
+
+ .formulariodecontacto{
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    float: left;
+    height:100px;
+    width: 50%;
+
+  }
+  .redessociales{
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    float: right;
+    height:100px;
+    width: 50%;
+  }
+
+}
